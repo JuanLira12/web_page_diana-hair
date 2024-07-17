@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    background-image: url(/src/img/fundo_branco.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#container {
+    padding: 50px;
+    margin: 50px;
+}
+
+
+
+section {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+img {
+    width: 100px;
+    border: 2px solid rgb(48, 43, 43);
+    border-radius: 100px;
+}
+

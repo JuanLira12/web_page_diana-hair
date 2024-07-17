@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    background-image: url(/src/img/fundo_branco.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+header{
+    padding: 10px;
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.h1 {
+    align-items: center;
+}
+
+nav {
+
+}
+
+.menu {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+}
+
+.menu-item {
+    padding: 10px;
+    margin: 10px;
+    margin-right: 20px;
+    border: 3px solid rgb(233, 230, 230);
+    border-radius: 10px;
+}
+
+
+main {
+    display: flex;
+    padding: 10px;
+    margin: 12px;
+}
+
+
+section {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 400px;
+    height: 230px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.text {
+    display: inline;
+    padding: 2px;
+    margin: 4px;
+    font-size: 12px;
+}
+
+p {
+    padding: 20px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.local {
+    width:100% ;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center; 
+    overflow: hidden;
+}
+
+#criador {
+    width: 100px;
+    height: 100px;
+}
