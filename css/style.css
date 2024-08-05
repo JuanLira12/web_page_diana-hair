@@ -58,29 +58,31 @@ main {
 }
 
 
+
 section {
+    display: flex;
     margin: 10px;
     padding: 20px;
-    display: flex;
     align-items: center;
 }
 
 img {
-    width: 400px;
-    height: 230px;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
     border: 2px solid black;
-    border-radius: 50px;
+    border-radius: 20px;
 }
+
 
 .text {
     display: inline;
-    padding: 2px;
-    margin: 4px;
+    margin: 2px;
     font-size: 12px;
 }
 
 p {
-    padding: 20px;
+    padding: 5px;
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif
 }
@@ -91,7 +93,7 @@ p {
 
 h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 34px;
     padding: 10px;
     margin: 10px;
 }

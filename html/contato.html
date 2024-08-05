@@ -6,10 +6,87 @@
     <title>DIANA HAIR - Contato</title>
     <link rel="stylesheet" href="/css/style-2.css">
 </head>
+
 <body>
 
+    <header id="menu">
+        <img class="logo" src="/src/img/logo.png" alt="logo" srcset="">
+        <h1 class="h1">DIANA HAIR</h1>
+        <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="index.html">Sobre</a></li>
+                    <li class="menu-item"><a href="trabalho.html">Trabalho</a></li>
+                    <li class="menu-item"><a href="contato.html">Contato</a></li>
+                </ul>
+        </nav>
 
-<main>
+    </header>
+
+    <hr>
+
+    <main>
+        <div class="formulario">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+        <br>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+        <br>
+            <label for="phone">Telefone</label>
+            <input type="tel" id="phone" name="phone" required>
+        <br>
+
+    </div>
+
+        <section class="preferencia">
+            <p class=" text-guia">Como prefere nosso Contato ?</p>
+            <form id="contactForm">
+                <h3>
+                    <label>
+                        <input type="radio" name="contactMethod" value="WhatsApp" required> WhatsApp
+                    </label>
+                </h3>
+
+                <h3>
+                    <label>
+                        <input type="radio" name="contactMethod" value="Facebook"> Facebook
+                    </label>
+                </h3>
+
+                <h3>
+                    <label>
+                        <input type="radio" name="contactMethod" value="instagram"> instagram
+                    </label>
+                </h3>
+
+                <h3>
+                    <label>
+                        <input type="radio" name="contactMethod" value="instagram"> Telefone
+                    </label>
+                </h3>
+
+
+                <p class="horario">Qual o horario prefere ser atendido ?</p>
+                <input type="time" name="preferredtime" required>
+
+                 <p class="novidade">Gostaria de Receber nossas novidades por telefone ?</p>
+                <label>
+                    <input type="checkbox" name="receiveUpdates" value="yes"> Sim
+                    <input type="checkbox" name="receiveUpdates" value="no"> Não
+                </label>
+
+            <button type="submit">Enviar formulario</button> 
+
+        </form>
+        </section>
+    </div>
+    </main>
+
+    <hr>
+
+  
+
+<aside>
     <div id="container">
         <section>
             <img src="/src/img/diana_img.jpg" alt="cabeleireira">
@@ -18,7 +95,6 @@
             <p>11 952726316</p>
             <a href="https://www.instagram.com/espaco_feminino_diana_hair/"> <button type="button">AGENDE SEU HORARIO </button></a> 
         </section>
-        <hr>
 
         <section>
             <img src="/src/img/manicure-img.jpg" alt="nail">
@@ -28,8 +104,6 @@
             <a href="https://www.instagram.com/v.alves.nails/"> <button type="button">AGENDE SEU HORARIO  </button></a> 
         </section>
 
-        <hr>
-
         <section>
             <img src="/src/img/extencionista-designer.jpg" alt="">
             <h2>Nayara Rodrigues</h2>
@@ -38,8 +112,6 @@
             <a href="https://www.instagram.com/nay___beauty/"> <button type="button">AGENDE SEU HORARIO </button></a> 
         </section>
 
-        <hr>
-
         <section>
             <img src="/src/img/estetisista.jpg" alt="">
             <h2>Camila Corte</h2>
@@ -47,9 +119,9 @@
             <p>11 98146-5576</p>
            <a href="https://www.instagram.com/camilacorteestetica/"> <button type="button">AGENDE SEU HORARIO </button></a> 
         </section>
-        <hr>
     </div>
-</main>
+</aside>
 
 </body>
+<script src="/js/index.js"></script>
 </html>

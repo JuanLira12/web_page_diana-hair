@@ -11,28 +11,116 @@ body {
     background-position: center ;
 }
 
-main {
+header{
+    padding: 10px;
+    margin: 12px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
+   
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.h1 {
+    align-items: center;
+}
+
+nav {
+
+}
+
+.menu {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+}
+
+.menu-item {
+    padding: 10px;
+    margin: 10px;
+    margin-right: 20px;
+    border: 3px solid rgb(233, 230, 230);
+    border-radius: 10px;
+    
+    
+}
+
+.formulario {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 12px;
+    margin: 20px;
+}
+
+label,input {
+    padding: 10px;
+    margin: 4px;
+}
+
+.preferencia {
+    padding: 20px;
+    margin: 20px;
+}
+
+.text-guia, .horario, .novidade {
+    font-size: 20px;
+    margin: 2px;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 2px;
+
+}
+
+button {
+    padding: 10px;
+}
+
+
+/* logos das meninas  */
+
+
+aside {
+
 }
 
 #container {
+    display: flex;
     padding: 50px;
     margin: 50px;
 }
 
 
 
+
 section {
+    width: 50%;
+    height: 50%;
     padding: 10px;
     margin: 10px;
     cursor: pointer;
 }
 
+p, h2, button {
+    padding: 1%;
+    margin: 1% 
+    
+
+    }
+
 img {
-    width: 100px;
+    width: 160px;
+    height: 150px;
     border: 2px solid rgb(48, 43, 43);
     border-radius: 100px;
 }
