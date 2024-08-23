@@ -53,6 +53,13 @@ nav {
     
 }
 
+.WhatsApp,.Instagram {
+    width: 50px;
+    height: 50px;
+
+}
+
+
 .formulario {
     border: 2px solid black;
     border-radius: 20px;
@@ -121,7 +128,6 @@ p, h2, button {
 img {
     width: 160px;
     height: 150px;
-    border: 2px solid rgb(48, 43, 43);
     border-radius: 100px;
 }
 

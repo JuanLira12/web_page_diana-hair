@@ -128,3 +128,116 @@ footer {
     width: 100px;
     height: 100px;
 }
+
+
+/* Media Queries para Responsividade */
+
+/* Estilos para telas pequenas (smartphones) */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para telas médias (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header {
+        padding: 8px;
+    }
+
+    .logo {
+        width: 180px;
+        height: 180px;
+    }
+
+    .menu-item {
+        padding: 8px;
+        margin: 8px;
+        margin-right: 16px;
+    }
+
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+/* Estilos para telas grandes (desktops) */
+@media (min-width: 1025px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .menu-item {
+        padding: 10px;
+        margin: 10px;
+        margin-right: 20px;
+    }
+
+    main {
+        flex-direction: row;
+    }
+
+    section {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    img {
+        width: 200px;
+        height: 150px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
