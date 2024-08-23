@@ -31,9 +31,7 @@ header{
     align-items: center;
 }
 
-nav {
 
-}
 
 .menu {
     display: flex;
@@ -97,9 +95,6 @@ button {
 /* logos das meninas  */
 
 
-aside {
-
-}
 
 #container {
     display: flex;
